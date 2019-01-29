@@ -16,3 +16,13 @@ print("dictionary:", mydict)
 print("occuranaces:")
 for mykey in mydict.keys():
     print(mykey,mydict[mykey])
+    
+
+    
+    
+
+
+
+
+
+
