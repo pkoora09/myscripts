@@ -39,7 +39,7 @@ for myfile in mylist:
     if myfile.endswith(".txt"):
         os.remove(myfile)
 
-"""
+
 
 mydir = []
 myfiles = []
@@ -57,3 +57,13 @@ print("files")
 print(myfiles)
 print("Directories")
 print(mydir)
+
+"""
+
+#os.mkdir("backup")
+for file in os.listdir():
+    if os.path.isfile(file):
+        if file.endswith(".py"):
+            os.system('cp' + file + 'C:\Personal\Python\Examples\Programs\backup/')
+        
+
